@@ -20,6 +20,7 @@ app.config.suppress_callback_exceptions = True
 
 
 # Load data from csv
+# Comentario Hainer
 def load_data():
     # Cargar el archivo CSV
     df = pd.read_csv("datos_energia.csv")
